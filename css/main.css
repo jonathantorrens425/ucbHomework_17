@@ -1,0 +1,37 @@
+header {
+    background-color: lime;
+}
+
+.navigation {
+
+}
+
+.divExample {
+    background-color: lightseagreen;
+}
+
+p {
+    background-color: lightpink;
+    display: block;
+}
+
+#paragraph1 {
+    background-color: lightgreen;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.horizontalList {
+    display: inline;
+    background-color: lightsalmon;
+}
+
+
+
+
