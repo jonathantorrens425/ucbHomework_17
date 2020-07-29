@@ -1,37 +1,227 @@
-header {
-    background-color: lime;
+body {
+    font-family: 'Jost', sans-serif;
 }
 
-.navigation {
-
+/* Container Styles */
+.container {    
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
 }
 
-.divExample {
-    background-color: lightseagreen;
+.oneThird {
+    float: left;
+    width: 33%;
 }
 
-p {
-    background-color: lightpink;
-    display: block;
+.clear {
+    clear: both;
 }
 
-#paragraph1 {
-    background-color: lightgreen;
+/* Main Container Elements */
+#covidContainer {
+    float: left;
+    background-color:rgb(191, 189, 186);
+    height: 25px;
+    width: 100%;
+    margin: 0px;
 }
 
-.padding10 {
-    padding: 10px;
+#covidText {
+    color: #000000;
+    font-weight: 900;
+    font-size: 18px;
 }
 
-.padding20 {
-    padding: 20px;
+/* Navigation */
+nav {
+    float: left;
+    width: 100%;
+    height: 130px;
+    border-bottom: 1px solid black;
 }
 
-.horizontalList {
+#logo {
+    position: relative;
+    height: 101px;
+    width: 244px;
+    top: 22px;
+}
+
+#navList {
+    position: absolute;
+    list-style-type: none;
+    top: 60px;
+    left: 270px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.navListItem {    
     display: inline;
-    background-color: lightsalmon;
+    margin-right: 60px;
 }
 
+#navDonate {
+    position: absolute;
+    display: inline-block;
+    right: 0px;
+    top: 70px;
+    font-size: 25px;
+    font-weight: 600;
+}
 
+#navSearch {
+    position: absolute;
+    height: 32px;
+    width: 253px;
+    right: 0px;
+    top: 15px;    
+    border-radius: 3px;
+}
 
+#navSearch input {
+    height: 25px;
+    width: 247px;
+    font-family: Jost, sans-serif;
+}
 
+/* Hero Image */
+#heroImageContainer {  
+    float: left;  
+    height: 276px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#heroImage {
+    height: 276px;
+    width: 100%;
+}
+
+/* Main Content */
+#mainContent {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.mainContentTitle {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.mainContentText {
+    color: #707070;
+    font-size: 12px;    
+    padding: 0;
+    margin: 10px 0 0 0;
+    padding: 0px 30px 0px 0px;
+}
+
+#affordableHousingImage {
+    height: 239px;
+    width: 279px;
+}
+
+#communityPlanningImage {
+    height: 149px;
+    width: 316px;
+    margin-top: 50px;
+}
+
+#selfSufficiencyImage {
+    height: 189px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+#secondTextContainer {
+    padding-top: 20px;
+}
+
+#donateButtonContainer {
+    box-sizing: border-box;
+    background-color: #FFCA06;
+    border-radius: 12px 0px 12px 0px;
+    text-align: center;
+    width: 245px;
+    height: 64px;
+    margin-top: 20px;
+    padding: 9px 0px;
+    font-size: 32px;
+}
+
+#socialMediaContainer {
+    margin-top: 10px;
+}
+
+.socialMediaImage {
+    height: 64px;
+    width: 64px;
+    margin-right: 15px;
+}
+
+footer {
+    position: relative;
+    clear: both;    
+    padding-top: 30px; 
+}
+
+#footerContainer {
+    position: relative;
+    height: 103px;
+}
+
+#bottomDonate {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    font-size: 27px;
+    text-shadow: 5px 5px 5px #ccc;
+}
+
+#bottomPortfolio {
+    position: absolute;
+    bottom: 13px;
+    left: 150px;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#socialMediaIconsContainer {
+    position: absolute;
+    left: 350px;
+    bottom: 13px; 
+}
+
+.socialMediaIcon {
+    margin-right: 45px;
+    width: 33px;
+}
+
+#footerLogo {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 103px;    
+}
+
+/* Color Styles */
+.lightGreyBackground {
+    background-color: #ededed;
+}
+
+/* Text Styles */
+.letterSpacing14 {
+    letter-spacing: 1.5px;
+}
+
+/* Aligment Styles */
+.center { text-align: center; }
